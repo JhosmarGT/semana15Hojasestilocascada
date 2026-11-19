@@ -1,0 +1,182 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Propuesto 3 - Librería UTP</title>
+
+    <script src="https://cdn.tailwindcss.com"></script>
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+    <header class="bg-indigo-700 text-white p-6 text-center shadow">
+        <h1 class="text-3xl font-bold">Librería UTP</h1>
+        <p class="mt-2">Comparación de tarjetas con Tailwind CSS</p>
+    </header>
+
+    <main class="container mx-auto px-6 py-10">
+
+        <h2 class="text-2xl font-bold text-center mb-8">
+            Nuestros libros
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+
+            <div class="bg-white rounded-lg shadow-md overflow-hidden border-2 border-yellow-400 hover:shadow-xl transition">
+
+                <div class="bg-indigo-600 text-white p-4">
+                    <h3 class="text-xl font-bold">Clean Code</h3>
+                </div>
+
+                <div class="p-5">
+                    <p class="mb-2"><strong>Autor:</strong> Robert C. Martin</p>
+                    <p class="mb-2"><strong>Precio:</strong> S/ 120.00</p>
+                    <p class="mb-4"><strong>Stock:</strong> 5 unidades</p>
+
+                    <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm font-semibold">
+                        Disponible
+                    </span>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition">
+
+                <div class="bg-indigo-600 text-white p-4">
+                    <h3 class="text-xl font-bold">El Quijote</h3>
+                </div>
+
+                <div class="p-5">
+                    <p class="mb-2"><strong>Autor:</strong> Miguel de Cervantes</p>
+                    <p class="mb-2"><strong>Precio:</strong> S/ 45.50</p>
+                    <p class="mb-4"><strong>Stock:</strong> 0 unidades</p>
+
+                    <span class="bg-red-100 text-red-700 px-3 py-1 rounded-full text-sm font-semibold">
+                        Agotado
+                    </span>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md overflow-hidden hover:shadow-xl transition">
+
+                <div class="bg-indigo-600 text-white p-4">
+                    <h3 class="text-xl font-bold">Aprendiendo Angular</h3>
+                </div>
+
+                <div class="p-5">
+                    <p class="mb-2"><strong>Autor:</strong> Ana Torres</p>
+                    <p class="mb-2"><strong>Precio:</strong> S/ 89.90</p>
+                    <p class="mb-4"><strong>Stock:</strong> 8 unidades</p>
+
+                    <span class="bg-green-100 text-green-700 px-3 py-1 rounded-full text-sm font-semibold">
+                        Disponible
+                    </span>
+                </div>
+            </div>
+
+            <div class="bg-white rounded-lg shadow-md overflow-hidden border-2 border-yellow-400 hover:shadow-xl transition">
+
+                <div class="bg-indigo-600 text-white p-4">
+                    <h3 class="text-xl font-bold">JavaScript Moderno</h3>
+                </div>
+
+                <div class="p-5">
+                    <p class="mb-2"><strong>Autor:</strong> Luis Paredes</p>
+                    <p class="mb-2"><strong>Precio:</strong> S/ 150.00</p>
+                    <p class="mb-4"><strong>Stock:</strong> 0 unidades</p>
+
+                    <span class="bg-red-100 text-red-700 px-3 py-1 rounded-full text-sm font-semibold">
+                        Agotado
+                    </span>
+                </div>
+            </div>
+
+        </div>
+
+        <section class="mt-16">
+
+            <h2 class="text-2xl font-bold text-center mb-6">
+                Comparación: Bootstrap vs Tailwind CSS
+            </h2>
+
+            <div class="overflow-x-auto bg-white rounded-lg shadow-md">
+
+                <table class="w-full text-left border-collapse">
+
+                    <thead class="bg-indigo-700 text-white">
+                        <tr>
+                            <th class="p-4">Aspecto</th>
+                            <th class="p-4">Bootstrap</th>
+                            <th class="p-4">Tailwind CSS</th>
+                        </tr>
+                    </thead>
+
+                    <tbody>
+                        <tr class="border-b">
+                            <td class="p-4 font-semibold">Cantidad de HTML</td>
+                            <td class="p-4">Menos clases para crear una tarjeta básica.</td>
+                            <td class="p-4">Más clases directamente en HTML.</td>
+                        </tr>
+
+                        <tr class="border-b bg-gray-50">
+                            <td class="p-4 font-semibold">CSS propio</td>
+                            <td class="p-4">Puede necesitar CSS adicional para personalizaciones.</td>
+                            <td class="p-4">Generalmente necesita menos CSS propio.</td>
+                        </tr>
+
+                        <tr class="border-b">
+                            <td class="p-4 font-semibold">Personalización</td>
+                            <td class="p-4">Fácil, pero depende de sus componentes y estilos.</td>
+                            <td class="p-4">Muy flexible mediante clases utilitarias.</td>
+                        </tr>
+
+                        <tr class="border-b bg-gray-50">
+                            <td class="p-4 font-semibold">Apariencia final</td>
+                            <td class="p-4">Diseño uniforme y componentes predeterminados.</td>
+                            <td class="p-4">Diseño más personalizado según las clases utilizadas.</td>
+                        </tr>
+                    </tbody>
+
+                </table>
+
+            </div>
+        </section>
+
+        <section class="mt-12 bg-white p-6 rounded-lg shadow-md">
+
+            <h2 class="text-2xl font-bold text-indigo-700 mb-4">
+                Conclusiones
+            </h2>
+
+            <p class="mb-4">
+                Bootstrap permite desarrollar interfaces rápidamente gracias
+                a sus componentes prediseñados y es sencillo de utilizar.
+            </p>
+
+            <p class="mb-4">
+                Tailwind CSS permite personalizar cada elemento con mayor
+                libertad, aunque utiliza más clases directamente en el HTML.
+            </p>
+
+            <p class="mb-4">
+                Para proyectos rápidos, formularios y sistemas administrativos
+                utilizaría Bootstrap por su facilidad y componentes listos.
+            </p>
+
+            <p>
+                Para páginas modernas, landing pages y diseños personalizados
+                utilizaría Tailwind CSS por su flexibilidad.
+            </p>
+
+        </section>
+
+    </main>
+
+    <footer class="bg-gray-900 text-white text-center p-5 mt-10">
+        <p>© 2026 Librería UTP - Comparación de frameworks CSS</p>
+    </footer>
+
+</body>
+</html>

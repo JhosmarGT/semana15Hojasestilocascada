@@ -1,0 +1,231 @@
+
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Propuesto 4 - Sistema de Diseño</title>
+
+    <!-- FUENTE POPPINS -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <!-- CSS COMPILADO -->
+    <link rel="stylesheet" href="./dist/output.css">
+</head>
+
+<body class="bg-gray-100 text-gray-800">
+
+    <!-- CABECERA -->
+    <header class="bg-ocean-700 text-white p-6 shadow-lg">
+
+        <div class="max-w-6xl mx-auto flex flex-col md:flex-row justify-between items-center">
+
+            <h1 class="text-2xl font-bold">
+                Mi Diseño
+            </h1>
+
+            <nav class="flex gap-6 mt-4 md:mt-0">
+
+                <a href="#inicio" class="hover:text-coral-400 transition">
+                    Inicio
+                </a>
+
+                <a href="#colores" class="hover:text-coral-400 transition">
+                    Colores
+                </a>
+
+                <a href="#servicios" class="hover:text-coral-400 transition">
+                    Servicios
+                </a>
+
+            </nav>
+
+        </div>
+
+    </header>
+
+    <!-- HERO -->
+    <section id="inicio" class="bg-ocean-500 text-white text-center py-20 px-6">
+
+        <h2 class="text-4xl font-bold mb-4">
+            Sistema de Diseño Propio
+        </h2>
+
+        <p class="max-w-2xl mx-auto mb-8 text-lg">
+            Una identidad visual creada con colores personalizados
+            y componentes utilizando Tailwind CSS.
+        </p>
+
+        <button class="bg-coral-400 hover:bg-coral-600 text-white font-bold px-8 py-3 rounded-lg transition">
+            Conocer más
+        </button>
+
+    </section>
+
+    <!-- PALETA DE COLORES -->
+    <section id="colores" class="max-w-6xl mx-auto px-6 py-12">
+
+        <h2 class="text-3xl font-bold text-center mb-8">
+            Nuestra paleta de colores
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+            <!-- OCEAN -->
+            <div class="bg-white rounded-xl shadow p-5">
+
+                <h3 class="font-bold text-xl mb-4">Ocean</h3>
+
+                <div class="bg-ocean-500 text-white p-5 rounded-lg mb-3">
+                    Ocean 500 - Azul
+                </div>
+
+                <div class="bg-ocean-700 text-white p-5 rounded-lg">
+                    Ocean 700 - Azul oscuro
+                </div>
+
+            </div>
+
+            <!-- CORAL -->
+            <div class="bg-white rounded-xl shadow p-5">
+
+                <h3 class="font-bold text-xl mb-4">Coral</h3>
+
+                <div class="bg-coral-400 text-white p-5 rounded-lg mb-3">
+                    Coral 400 - Rosado
+                </div>
+
+                <div class="bg-coral-600 text-white p-5 rounded-lg">
+                    Coral 600 - Rosado oscuro
+                </div>
+
+            </div>
+
+            <!-- FOREST -->
+            <div class="bg-white rounded-xl shadow p-5">
+
+                <h3 class="font-bold text-xl mb-4">Forest</h3>
+
+                <div class="bg-forest-500 text-white p-5 rounded-lg mb-3">
+                    Forest 500 - Verde
+                </div>
+
+                <div class="bg-forest-700 text-white p-5 rounded-lg">
+                    Forest 700 - Verde oscuro
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- TARJETAS -->
+    <section id="servicios" class="max-w-6xl mx-auto px-6 py-10">
+
+        <h2 class="text-3xl font-bold text-center mb-8">
+            Nuestros servicios
+        </h2>
+
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+
+            <!-- TARJETA 1 -->
+            <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition">
+
+                <h3 class="text-xl font-bold text-ocean-700 mb-3">
+                    Diseño Web
+                </h3>
+
+                <p class="text-gray-600 mb-5">
+                    Creamos páginas modernas y adaptables
+                    a diferentes dispositivos.
+                </p>
+
+                <a href="#inicio" class="text-ocean-500 font-semibold hover:text-ocean-700">
+                    Ver más →
+                </a>
+
+            </div>
+
+            <!-- TARJETA 2 -->
+            <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition">
+
+                <h3 class="text-xl font-bold text-coral-600 mb-3">
+                    Desarrollo
+                </h3>
+
+                <p class="text-gray-600 mb-5">
+                    Desarrollamos soluciones digitales
+                    para mejorar tus proyectos.
+                </p>
+
+                <a href="#inicio" class="text-coral-600 font-semibold hover:text-coral-400">
+                    Ver más →
+                </a>
+
+            </div>
+
+            <!-- TARJETA 3 -->
+            <div class="bg-white rounded-xl shadow-lg p-6 hover:shadow-xl transition">
+
+                <h3 class="text-xl font-bold text-forest-700 mb-3">
+                    Marketing
+                </h3>
+
+                <p class="text-gray-600 mb-5">
+                    Impulsamos tu negocio mediante
+                    estrategias digitales.
+                </p>
+
+                <a href="#inicio" class="text-forest-500 font-semibold hover:text-forest-700">
+                    Ver más →
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <!-- BOTONES DE MUESTRA -->
+    <section class="text-center py-10">
+
+        <h2 class="text-2xl font-bold mb-6">
+            Botones personalizados
+        </h2>
+
+        <div class="flex flex-wrap justify-center gap-4 px-4">
+
+            <button class="bg-ocean-500 hover:bg-ocean-700 text-white px-6 py-3 rounded-lg transition">
+                Botón azul
+            </button>
+
+            <button class="bg-coral-400 hover:bg-coral-600 text-white px-6 py-3 rounded-lg transition">
+                Botón coral
+            </button>
+
+            <button class="bg-forest-500 hover:bg-forest-700 text-white px-6 py-3 rounded-lg transition">
+                Botón verde
+            </button>
+
+        </div>
+
+    </section>
+
+    <!-- FOOTER -->
+    <footer class="bg-ocean-700 text-white text-center p-6 mt-10">
+
+        <p>© 2026 Mi Diseño - Sistema de diseño propio</p>
+
+        <p class="mt-2 text-sm text-gray-200">
+            Desarrollado con Tailwind CSS CLI
+        </p>
+
+    </footer>
+
+</body>
+</html>
